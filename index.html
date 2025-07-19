@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>學習活動反思記錄</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1><i class="fas fa-brain"></i> 學習活動反思記錄</h1>
+            <p class="subtitle">記錄每一次學習的成長與收穫</p>
+        </header>
+
+        <main class="main-content">
+            <section class="add-reflection">
+                <h2><i class="fas fa-plus-circle"></i> 新增反思記錄</h2>
+                <form id="reflectionForm" class="reflection-form">
+                    <div class="form-group">
+                        <label for="title">活動標題 *</label>
+                        <input type="text" id="title" name="title" required placeholder="請輸入學習活動的標題">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="date">活動日期 *</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="category">活動類型</label>
+                        <select id="category" name="category">
+                            <option value="課程學習">課程學習</option>
+                            <option value="專案實作">專案實作</option>
+                            <option value="讀書心得">讀書心得</option>
+                            <option value="技術研討">技術研討</option>
+                            <option value="工作經驗">工作經驗</option>
+                            <option value="其他">其他</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="content">學習內容 *</label>
+                        <textarea id="content" name="content" rows="4" required placeholder="請描述這次學習活動的內容..."></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="reflection">反思與收穫 *</label>
+                        <textarea id="reflection" name="reflection" rows="4" required placeholder="請分享您的反思、收穫或心得..."></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="tags">標籤</label>
+                        <input type="text" id="tags" name="tags" placeholder="用逗號分隔多個標籤，例如：JavaScript, React, 前端">
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-save"></i> 儲存反思
+                    </button>
+                </form>
+            </section>
+
+            <section class="reflections-list">
+                <h2><i class="fas fa-list"></i> 反思記錄</h2>
+                <div class="filters">
+                    <input type="text" id="searchInput" placeholder="搜尋反思記錄..." class="search-input">
+                    <select id="categoryFilter" class="category-filter">
+                        <option value="">所有類型</option>
+                        <option value="課程學習">課程學習</option>
+                        <option value="專案實作">專案實作</option>
+                        <option value="讀書心得">讀書心得</option>
+                        <option value="技術研討">技術研討</option>
+                        <option value="工作經驗">工作經驗</option>
+                        <option value="其他">其他</option>
+                    </select>
+                </div>
+                
+                <div id="reflectionsContainer" class="reflections-container">
+                    <!-- 反思記錄將在這裡動態顯示 -->
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 學習活動反思記錄. 用愛與熱情記錄每一次成長.</p>
+        </footer>
+    </div>
+
+    <!-- 確認刪除的模態框 -->
+    <div id="deleteModal" class="modal">
+        <div class="modal-content">
+            <h3>確認刪除</h3>
+            <p>您確定要刪除這條反思記錄嗎？此操作無法復原。</p>
+            <div class="modal-buttons">
+                <button id="confirmDelete" class="btn-danger">確認刪除</button>
+                <button id="cancelDelete" class="btn-secondary">取消</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
