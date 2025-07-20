@@ -3,7 +3,7 @@ layout: page
 title: "Program"
 permalink: /program/
 ---
-cd (folder mane)：進入資料夾
+cd (folder mane)：進入資料夾\n
 ~：home
 mkdir (folder name)：建立資料夾
 rm (file name)：刪除檔案
