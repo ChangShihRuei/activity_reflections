@@ -3,7 +3,7 @@ layout: page
 title: "Program"
 permalink: /program/
 ---
-cd (folder mane)：進入資料夾\n
+cd (folder mane)：進入資料夾
 ~：home
 mkdir (folder name)：建立資料夾
 rm (file name)：刪除檔案
@@ -18,7 +18,7 @@ mv：移動檔案、修正名稱
 git commit -m "(註記)"：儲存工作階段（僅限本機）
 git push (remote branch)：將檔案上傳到remote
 - 注意：remote branch名稱需為origin (branch)
-- 第一次要加-u
+- 第一次要加-uco
 git init：建立專案
 git add：將變更加入commit
 git status：確認尚未commit的檔案
