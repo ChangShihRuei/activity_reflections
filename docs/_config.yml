@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: /activity_reflections # the subpath of your site, e.g. /blog
 
 # Build settings
-theme: minima
+theme: jekyll-theme-Gitbook Theme
 markdown: kramdown
 plugins:
   - jekyll-feed
