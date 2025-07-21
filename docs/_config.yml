@@ -25,10 +25,18 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: /activity_reflections # the subpath of your site, e.g. /blog
 
 # Build settings
-theme: jekyll-theme-Gitbook Theme
+theme: minima
 markdown: kramdown
 plugins:
   - jekyll-feed
+header_pages:
+  - 學習進度規劃
+  - 機器人
+  - 腳踏車
+  - 帆船
+  - 公車
+  - about
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
