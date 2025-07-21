@@ -30,12 +30,12 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 header_pages:
-  - 學習進度規劃
-  - 機器人
-  - 腳踏車
-  - 帆船
-  - 公車
-  - about
+  - 學習進度規劃.md
+  - 機器人.md
+  - 腳踏車.md
+  - 帆船.md
+  - 公車.md
+  - about.md
 
 
 # Exclude from processing.
