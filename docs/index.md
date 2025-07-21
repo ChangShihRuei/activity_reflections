@@ -3,8 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 ---
 
-## 主要網站連結
-
 <ul>
   <li><a href="機器人.html">機器人</a></li>
   <li><a href="帆船.html">帆船</a></li>
