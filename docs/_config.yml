@@ -30,7 +30,6 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 header_pages:
-  - about.md
   - 機器人.md
   - 帆船.md
   - 腳踏車.md
