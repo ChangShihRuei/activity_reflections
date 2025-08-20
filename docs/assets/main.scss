@@ -1,0 +1,14 @@
+---
+---
+
+@import "minima";
+
+.post-content h1 {
+  font-size: 38px
+}
+
+@media screen and (max-width: 800px) {
+  .post-content h1 {
+      font-size:34px
+  }
+}
