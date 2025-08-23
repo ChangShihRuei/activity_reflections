@@ -13,14 +13,18 @@ parent: /robot/viqrc_2024_2025/
 
 ## 二、名次紀錄與圖片
 
-### 技能挑戰賽
-
-- 名次：11
-
 ### 團隊合作挑戰賽
 
 - 名次：5
 
+![]({{ "/assets/picture/vex24-25/TAI-VEX/臺中美國合作成績.png" | relative_url }})
+
+![]({{ "/assets/picture/vex24-25/TAI-VEX/臺中美國排名.png" | relative_url }})
+
+### 技能挑戰賽
+
+- 名次：11
+
+![]({{ "/assets/picture/vex24-25/TAI-VEX/臺中美國技能.png" | relative_url }})
+
 [回首頁](/activity_reflections/)　　[回上頁：VIQRC 2024-2025](/activity_reflections/robot/viqrc_2024_2025/)
-
-
