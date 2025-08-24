@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "2025 VEX Robotics World Championship - VIQRC Middle School"
+title: "2025 VEX Robotics World Championship: VEX IQ Robotics Competition Middle School Event"
 permalink: /robot/viqrc_2024_2025/world
 parent: /robot/viqrc_2024_2025/
 ---
@@ -8,8 +8,8 @@ parent: /robot/viqrc_2024_2025/
 ## 一、比賽資訊
 
 - 日期：20250512-14
-- 地點：（請補）
-- 隊伍總數：（請補）
+- 地點：Kay Bailey Hutchison Convention Center Dallas
+- 隊伍總數：419
 
 ## 二、名次紀錄與圖片
 
