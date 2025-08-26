@@ -3,12 +3,12 @@ title: 關於我
 ---
 ## 做過的事情
 
-- [機器人](機器人.md)
-- [帆船](帆船.md)
-- [腳踏車](腳踏車.md)
-- [學習進度規劃](學習進度規劃.md)
-- [公車](公車.md)
+- [機器人](/activity_reflections/robot/)
+- [帆船](/activity_reflections/sailing/)
+- [腳踏車](/activity_reflections/bicycle/)
+- [學習進度規劃](/activity_reflections/learning_schedule/)
+- [公車](/activity_reflections/bus/)
 
 ## 正在做的事情
 
-- [程式專案](程式.md)
+- [程式專案](/activity_reflections/program/)
