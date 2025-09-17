@@ -4,11 +4,25 @@
 @import "minima";
 
 .post-content h1 {
-  font-size: 38px
+  font-size: 32px
 }
 
 @media screen and (max-width: 800px) {
   .post-content h1 {
-      font-size:34px
+      font-size:30px
+  }
+}
+
+.post-title {
+  font-size: 38px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+@media screen and (max-width: 800px) {
+  .post-title {
+    font-size: 34px;
+    letter-spacing: -1px;
+    line-height: 1;
   }
 }
