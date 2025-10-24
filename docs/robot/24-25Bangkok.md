@@ -20,7 +20,6 @@ parent: /robot/viqrc_2024_2025/
 
 ![]({{ "/assets/picture/vex24-25/Bangkok/曼谷排名.png" | relative_url }})
 
-
 ### 技能挑戰賽
 - 名次：13
 
