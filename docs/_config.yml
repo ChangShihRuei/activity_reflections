@@ -8,9 +8,9 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 header_pages:
-  - robot/機器人.md
-  - sailing/帆船.md
-  - bicycle/腳踏車.md
-  - learning_schedule/學習進度規劃.md
-  - bus/公車.md
-  - program/程式.md
+  - robot/index.md
+  - sailing/index.md
+  - bicycle/index.md
+  - learning_schedule/index.md
+  - bus/index.md
+  - program/index.md
