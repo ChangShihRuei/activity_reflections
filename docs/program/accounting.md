@@ -4,8 +4,65 @@ title: "記帳"
 permalink: /program/accounting/
 parent: /program/
 ---
+<style>
+/* Page-only typography tweaks for better visual balance */
+.accounting-page {
+  font-size: 0.98rem;
+  line-height: 1.75;
+}
+
+.accounting-page h1 {
+  font-size: 1.65rem;
+  line-height: 1.25;
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.accounting-page h2 {
+  font-size: 1.25rem;
+  line-height: 1.35;
+  margin-top: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.accounting-page h3 {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin-top: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.accounting-page h4 {
+  font-size: 1.02rem;
+  line-height: 1.45;
+  margin-top: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
+.accounting-page p,
+.accounting-page li {
+  margin-bottom: 0.6rem;
+}
+
+.accounting-page code {
+  font-size: 0.95em;
+}
+
+@media screen and (max-width: 800px) {
+  .accounting-page {
+    font-size: 0.96rem;
+  }
+  .accounting-page h1 {
+    font-size: 1.5rem;
+  }
+}
+</style>
+
+<div class="accounting-page">
 網頁樣本：[記帳系統](https://HaKexva.github.io/accounting_demo/)
+
 *所有功能皆開放使用，但資料皆為測試用，不會儲存到實際資料庫。
+
 *由於功能全部開放，故不提供登入功能。
 
 # 一、使用工具
@@ -168,3 +225,4 @@ HTTP通訊協定－POST：傳送支出表頁面Google Apps Script資料（Upsert
 經過這次的網頁製作，我認為時間的分配很重要，學校和程式兩者要分配好時間，程式的進度要優先，但是要訂一個截止日期，過了截止日期就只能處理學校內容。再來，網頁的排版要先與客戶溝通好，而不是都做完了才全部都被否決，導致要全部重做。最後是不要過度依賴AI產生的結果，要自己檢查無誤後，才可以保留內容並繼續做下一步，而不是全部都留下，導致最後很難維護。並且在遇到問題時，先自己檢查，不要一直請AI處理，否則容易會愈修問題愈多。
 
 [回首頁](/activity_reflections/)　　[回上頁：程式](/activity_reflections/program/)
+</div>
