@@ -58,7 +58,7 @@ parent: /program/
 }
 </style>
 
-<div class="accounting-page">
+<div class="accounting-page" markdown="1">
 網頁樣本：[記帳系統](https://HaKexva.github.io/accounting_demo/)
 
 *所有功能皆開放使用，但資料皆為測試用，不會儲存到實際資料庫。
