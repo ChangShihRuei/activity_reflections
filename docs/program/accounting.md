@@ -8,33 +8,38 @@ parent: /program/
 /* Page-only typography tweaks for better visual balance */
 .accounting-page {
   font-size: 0.98rem;
-  line-height: 1.75;
+  /* Body text should be tighter than headings */
+  line-height: 1.45;
 }
 
 .accounting-page h1 {
-  font-size: 1.65rem;
-  line-height: 1.25;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.55;
   margin-top: 1.8rem;
   margin-bottom: 0.8rem;
 }
 
 .accounting-page h2 {
-  font-size: 1.25rem;
-  line-height: 1.35;
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 1.55;
   margin-top: 1.4rem;
   margin-bottom: 0.6rem;
 }
 
 .accounting-page h3 {
-  font-size: 1.1rem;
-  line-height: 1.4;
+  font-size: 1.28rem;
+  font-weight: 650;
+  line-height: 1.55;
   margin-top: 1.1rem;
   margin-bottom: 0.5rem;
 }
 
 .accounting-page h4 {
-  font-size: 1.02rem;
-  line-height: 1.45;
+  font-size: 1.12rem;
+  font-weight: 650;
+  line-height: 1.55;
   margin-top: 0.9rem;
   margin-bottom: 0.4rem;
 }
@@ -54,6 +59,15 @@ parent: /program/
   }
   .accounting-page h1 {
     font-size: 1.5rem;
+  }
+  .accounting-page h2 {
+    font-size: 1.3rem;
+  }
+  .accounting-page h3 {
+    font-size: 1.18rem;
+  }
+  .accounting-page h4 {
+    font-size: 1.06rem;
   }
 }
 </style>
