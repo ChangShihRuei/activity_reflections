@@ -27,9 +27,14 @@
 
 /* Header: per-section dropdown buttons */
 /* IMPORTANT: don't override Minima's mobile show/hide behavior for .trigger */
-.site-nav .trigger > details.nav-item--dropdown,
-.site-nav .trigger > a.nav-item--link {
-  margin-right: 8px;
+@media screen and (min-width: 800px) {
+  /* Desktop: keep header items in one row */
+  .site-nav .trigger {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+  }
 }
 
 .site-nav .nav-item--link,
