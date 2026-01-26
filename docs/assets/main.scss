@@ -116,6 +116,100 @@
   }
 }
 
+/* Header dropdown (minima override) */
+.site-nav .nav-dropdown {
+  display: inline-block;
+  position: relative;
+  margin-right: 8px;
+}
+
+.site-nav .nav-dropdown__summary {
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: rgba(255, 255, 255, 0.85);
+  font-weight: 650;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.site-nav .nav-dropdown__summary::-webkit-details-marker {
+  display: none;
+}
+
+.site-nav .nav-dropdown__chevron {
+  display: inline-block;
+  transform: translateY(-1px);
+  transition: transform 140ms ease;
+  font-size: 0.85em;
+}
+
+.site-nav details[open] .nav-dropdown__chevron {
+  transform: rotate(180deg) translateY(1px);
+}
+
+.site-nav .nav-dropdown__menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 240px;
+  padding: 10px;
+  border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.14);
+  z-index: 999;
+}
+
+.site-nav .nav-dropdown__group + .nav-dropdown__group {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.site-nav .nav-dropdown__label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.55);
+  margin: 0 0 6px;
+}
+
+.site-nav .nav-dropdown__menu a {
+  display: block;
+  padding: 6px 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.78);
+}
+
+.site-nav .nav-dropdown__menu a:hover,
+.site-nav .nav-dropdown__menu a:focus {
+  background: rgba(99, 102, 241, 0.12);
+}
+
+@media screen and (max-width: 800px) {
+  .site-nav .nav-dropdown {
+    width: 100%;
+    margin: 10px 0 6px;
+  }
+  .site-nav .nav-dropdown__summary {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .site-nav .nav-dropdown__menu {
+    position: static;
+    min-width: 0;
+    box-shadow: none;
+    margin-top: 8px;
+  }
+}
+
 /* Program page: accounting.md (scoped) */
 .accounting-page {
   font-size: 0.98rem;
