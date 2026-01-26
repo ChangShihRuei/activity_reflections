@@ -17,14 +17,14 @@ parent: /robot/viqrc_2024_2025/
 
 - 名次：5
 
-![]({{ "/assets/picture/vex24-25/預賽/預賽合作成績.png" | relative_url }})
+![預賽團隊合作成績]({{ "/assets/picture/vex24-25/預賽/預賽合作成績.png" | relative_url }})
 
-![]({{ "/assets/picture/vex24-25/預賽/預賽排名.png" | relative_url }})
+![預賽團隊合作排名]({{ "/assets/picture/vex24-25/預賽/預賽排名.png" | relative_url }})
 
 ### 技能挑戰賽
 
 - 名次：15
 
-![]({{ "/assets/picture/vex24-25/預賽/預賽技能.png" | relative_url }})
+![預賽技能挑戰成績]({{ "/assets/picture/vex24-25/預賽/預賽技能.png" | relative_url }})
 
 [回首頁](/activity_reflections/)　　[回上頁：VIQRC 2024-2025](/activity_reflections/robot/viqrc_2024_2025/)
