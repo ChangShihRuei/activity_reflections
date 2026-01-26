@@ -26,11 +26,10 @@
 }
 
 /* Header: per-section dropdown buttons */
-.site-nav .trigger {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  align-items: center;
+/* IMPORTANT: don't override Minima's mobile show/hide behavior for .trigger */
+.site-nav .trigger > details.nav-item--dropdown,
+.site-nav .trigger > a.nav-item--link {
+  margin-right: 8px;
 }
 
 .site-nav .nav-item--link,
@@ -95,9 +94,6 @@
 }
 
 @media screen and (max-width: 800px) {
-  .site-nav .trigger {
-    display: block;
-  }
   .site-nav details.nav-item--dropdown > summary.nav-item__summary,
   .site-nav .nav-item--link {
     width: 100%;
