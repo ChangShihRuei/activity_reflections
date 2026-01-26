@@ -18,40 +18,59 @@
       </label>
 
       <div class="trigger">
-        <details class="nav-dropdown">
-          <summary class="nav-dropdown__summary">
-            分類
-            <span class="nav-dropdown__chevron" aria-hidden="true">▾</span>
+        <details class="nav-item nav-item--dropdown">
+          <summary class="nav-item__summary">
+            機器人
+            <span class="nav-item__chevron" aria-hidden="true">▾</span>
           </summary>
-          <div class="nav-dropdown__menu" role="menu">
-            <div class="nav-dropdown__group">
-              <div class="nav-dropdown__label">做過的事情</div>
-              <a role="menuitem" href="{{ "/robot/" | relative_url }}">機器人</a>
-              <a role="menuitem" href="{{ "/sailing/" | relative_url }}">帆船</a>
-              <a role="menuitem" href="{{ "/bicycle/" | relative_url }}">腳踏車</a>
-              <a role="menuitem" href="{{ "/bus/" | relative_url }}">公車</a>
-            </div>
-
-            <div class="nav-dropdown__group">
-              <div class="nav-dropdown__label">學習方法</div>
-              <a role="menuitem" href="{{ "/learning_schedule/" | relative_url }}">學習進度規劃</a>
-            </div>
-
-            <div class="nav-dropdown__group">
-              <div class="nav-dropdown__label">正在做的事情</div>
-              <a role="menuitem" href="{{ "/program/" | relative_url }}">程式專案</a>
-            </div>
+          <div class="nav-item__menu" role="menu">
+            <a role="menuitem" href="{{ "/robot/" | relative_url }}">總覽</a>
+            <a role="menuitem" href="{{ "/robot/viqrc_2023_2024/" | relative_url }}">VIQRC 2023-2024</a>
+            <a role="menuitem" href="{{ "/robot/viqrc_2024_2025/" | relative_url }}">VIQRC 2024-2025</a>
+            <a role="menuitem" href="{{ "/robot/fira_2025/" | relative_url }}">FIRA RoboWorld Cup 2025</a>
           </div>
         </details>
 
-        {%- if site.header_pages -%}
-          {%- for path in site.header_pages -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {%- endif -%}
-          {%- endfor -%}
-        {%- endif -%}
+        <details class="nav-item nav-item--dropdown">
+          <summary class="nav-item__summary">
+            帆船
+            <span class="nav-item__chevron" aria-hidden="true">▾</span>
+          </summary>
+          <div class="nav-item__menu" role="menu">
+            <a role="menuitem" href="{{ "/sailing/" | relative_url }}">總覽</a>
+            <a role="menuitem" href="{{ "/sailing/penghu_regatta/" | relative_url }}">澎湖盃</a>
+            <a role="menuitem" href="{{ "/sailing/personal_learning_portfolio/" | relative_url }}">個人學習歷程展</a>
+          </div>
+        </details>
+
+        <details class="nav-item nav-item--dropdown">
+          <summary class="nav-item__summary">
+            腳踏車
+            <span class="nav-item__chevron" aria-hidden="true">▾</span>
+          </summary>
+          <div class="nav-item__menu" role="menu">
+            <a role="menuitem" href="{{ "/bicycle/" | relative_url }}">總覽</a>
+            <a role="menuitem" href="{{ "/bicycle/grand_tour/" | relative_url }}">國小壯遊</a>
+            <a role="menuitem" href="{{ "/bicycle/puzzle_trip_1/" | relative_url }}">拼圖環島第一片</a>
+            <a role="menuitem" href="{{ "/bicycle/puzzle_trip_2/" | relative_url }}">拼圖環島第二片</a>
+            <a role="menuitem" href="{{ "/bicycle/puzzle_trip_4/" | relative_url }}">拼圖環島第四片</a>
+          </div>
+        </details>
+
+        <a class="nav-item nav-item--link" href="{{ "/learning_schedule/" | relative_url }}">學習進度規劃</a>
+        <a class="nav-item nav-item--link" href="{{ "/bus/" | relative_url }}">公車</a>
+
+        <details class="nav-item nav-item--dropdown">
+          <summary class="nav-item__summary">
+            程式專案
+            <span class="nav-item__chevron" aria-hidden="true">▾</span>
+          </summary>
+          <div class="nav-item__menu" role="menu">
+            <a role="menuitem" href="{{ "/program/" | relative_url }}">總覽</a>
+            <a role="menuitem" href="{{ "/program/accounting/" | relative_url }}">記帳</a>
+            <a role="menuitem" href="{{ "/program/hpees_shelf/" | relative_url }}">圖書管理系統</a>
+          </div>
+        </details>
       </div>
     </nav>
   </div>
