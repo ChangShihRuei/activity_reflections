@@ -113,6 +113,25 @@
 }
 
 /* Home page: section buttons like header */
+.home-section {
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  margin: 14px 0 18px;
+}
+
+.home-section--past {
+  background: rgba(99, 102, 241, 0.08);
+}
+
+.home-section--current {
+  background: rgba(45, 212, 191, 0.08);
+}
+
+.home-section__title {
+  margin: 0 0 10px;
+}
+
 .home-nav {
   display: grid;
   gap: 10px;

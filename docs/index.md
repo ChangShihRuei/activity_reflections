@@ -1,9 +1,10 @@
 ---
 title: 關於我
 ---
-## 做過的事情
+<section class="home-section home-section--past">
+  <h2 class="home-section__title">做過的事情</h2>
 
-<div class="home-nav">
+  <div class="home-nav">
 
 <details>
   <summary class="home-btn">機器人 <span class="home-btn__chevron" aria-hidden="true">▾</span></summary>
@@ -40,10 +41,12 @@ title: 關於我
 <a class="home-btn" href="/activity_reflections/bus/">公車</a>
 
 </div>
+</section>
 
-## 正在做的事情
+<section class="home-section home-section--current">
+  <h2 class="home-section__title">正在做的事情</h2>
 
-<div class="home-nav">
+  <div class="home-nav">
 
 <details>
   <summary class="home-btn">程式專案 <span class="home-btn__chevron" aria-hidden="true">▾</span></summary>
@@ -55,3 +58,4 @@ title: 關於我
 </details>
 
 </div>
+</section>
