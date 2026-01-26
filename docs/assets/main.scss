@@ -27,6 +27,95 @@
   }
 }
 
+/* Home page (docs/index.md) */
+.home-hero {
+  padding: 28px 26px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(45, 212, 191, 0.18), rgba(99, 102, 241, 0.16));
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  margin: 10px 0 22px;
+}
+
+.home-hero h1 {
+  margin: 0 0 10px;
+  font-size: 2rem;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.home-hero p {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1.7;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 14px 0 6px;
+}
+
+.home-card {
+  display: block;
+  padding: 16px 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  text-decoration: none;
+  transition: transform 120ms ease, box-shadow 120ms ease, border-color 120ms ease;
+}
+
+.home-card:hover,
+.home-card:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.1);
+  border-color: rgba(99, 102, 241, 0.35);
+}
+
+.home-card-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 6px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.86);
+}
+
+.home-card-title .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, rgba(45, 212, 191, 1), rgba(99, 102, 241, 1));
+  flex: 0 0 auto;
+}
+
+.home-card-desc {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.68);
+  line-height: 1.6;
+  font-size: 0.98rem;
+}
+
+.home-section-title {
+  margin-top: 22px;
+  margin-bottom: 6px;
+  font-size: 1.25rem;
+}
+
+@media screen and (max-width: 800px) {
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+  .home-hero {
+    padding: 22px 18px;
+  }
+  .home-hero h1 {
+    font-size: 1.7rem;
+  }
+}
+
 /* Program page: accounting.md (scoped) */
 .accounting-page {
   font-size: 0.98rem;
