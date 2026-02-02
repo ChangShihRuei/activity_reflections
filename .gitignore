@@ -44,6 +44,14 @@ out/
 coverage/
 .nyc_output/
 
+# Jekyll
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+Gemfile.lock
+
 # 其他
 *.tmp
 *.temp 

@@ -2,7 +2,7 @@ title: Ray Chang
 email: ray120424@gmail.com
 description: >- 
  這是我的個人網站，裡面詳細的介紹了我從小到大的經歷、做過的事情，還有現在以及未來的發展。
-baseurl: /activity_reflections 
+baseurl: ""
 theme: minima
 markdown: kramdown
 plugins:
