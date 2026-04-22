@@ -21,6 +21,7 @@ title: 關於我
   <div class="home-submenu">
     <a href="/activity_reflections/sailing/penghu_regatta/">澎湖盃</a>
     <a href="/activity_reflections/sailing/personal_learning_portfolio/">個人學習歷程展</a>
+    <a href="/activity_reflections/sailing/2026_dapengwan_regatta/">2026大鵬灣重型帆船賽</a>
   </div>
 </details>
 
