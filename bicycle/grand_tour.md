@@ -22,4 +22,4 @@ parent: /bicycle/
 
 　　最後，我認為這是一個難得的經驗，能夠和同學與老師一起規劃一個屬於自己的旅行，而不是等著被學校安排行程固定的畢業旅行，也能夠讓我們以後可以更有效的規劃一個旅行並實際實踐它。
 
-[回首頁](/activity_reflections/)　　[回上頁：腳踏車](/activity_reflections/bicycle/)
+[回首頁]({{ "/" | relative_url }})　　[回上頁：腳踏車]({{ "/bicycle/" | relative_url }})

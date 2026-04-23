@@ -9,4 +9,4 @@ parent: /bicycle/
 
 
 
-[回首頁](/activity_reflections/)　　[回上頁：腳踏車](/activity_reflections/bicycle/)
+[回首頁]({{ "/" | relative_url }})　　[回上頁：腳踏車]({{ "/bicycle/" | relative_url }})

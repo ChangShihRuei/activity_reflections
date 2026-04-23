@@ -15,4 +15,4 @@ permalink: /learning_schedule/
 
 　　我認為最後一次的方法對於段考複習是最有效的，另外還要搭配 Google Calendar、Google Tasks，才能夠做到好的時間安排，讓自己在考試前完成所有的複習。
 
-[回首頁](/activity_reflections/)
+[回首頁]({{ "/" | relative_url }})

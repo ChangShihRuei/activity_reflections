@@ -9,4 +9,4 @@ parent: /program/
 
 
 
-[回首頁](/activity_reflections/)　　[回上頁：程式](/activity_reflections/program/)
+[回首頁]({{ "/" | relative_url }})　　[回上頁：程式]({{ "/program/" | relative_url }})

@@ -23,6 +23,12 @@ bundle install
 bundle exec jekyll serve
 ```
 
+If Bundler fails on macOS with “missing extensions” or missing gem errors, try forcing a redownload/rebuild:
+
+```bash
+bundle install --redownload --force
+```
+
 Open `http://localhost:4000` in your browser.
 
 ## Deployment

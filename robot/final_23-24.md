@@ -38,4 +38,4 @@ parent: /robot/viqrc_2023_2024/
 
 ![決賽獲獎照片 3]({{ "/assets/picture/vex23-24/決賽/決賽獲獎3.JPG" | relative_url }})
 
-[回首頁](/activity_reflections/)　　[回上頁：VIQRC 2023-2024](/activity_reflections/robot/viqrc_2023_2024/)
+[回首頁]({{ "/" | relative_url }})　　[回上頁：VIQRC 2023-2024]({{ "/robot/viqrc_2023_2024/" | relative_url }})

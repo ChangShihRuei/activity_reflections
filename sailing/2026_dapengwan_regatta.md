@@ -23,4 +23,4 @@ parent: /sailing/
 
 　　接著隔天我們也順利的將船隻移泊至高雄，路上就一切順利，也順利的在晚上回到臺北，這次的比賽就此結束。
 
-[回首頁](/activity_reflections/)　　[回上頁：帆船](/activity_reflections/sailing/)
+[回首頁]({{ "/" | relative_url }})　　[回上頁：帆船]({{ "/sailing/" | relative_url }})

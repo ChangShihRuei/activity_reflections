@@ -27,4 +27,4 @@ parent: /robot/viqrc_2023_2024/
 
 ![校際預賽技能挑戰成績]({{ "/assets/picture/vex23-24/校際預賽/校際預賽技能.png" | relative_url }})
 
-[回首頁](/activity_reflections/)　　[回上頁：VIQRC 2023-2024](/activity_reflections/robot/viqrc_2023_2024/)
+[回首頁]({{ "/" | relative_url }})　　[回上頁：VIQRC 2023-2024]({{ "/robot/viqrc_2023_2024/" | relative_url }})

@@ -30,4 +30,4 @@ parent: /robot/viqrc_2024_2025/
 
 ![決賽獲獎照片]({{ "/assets/picture/vex24-25/決賽/決賽獲獎1.png" | relative_url }})
 
-[回首頁](/activity_reflections/)　　[回上頁：VIQRC 2024-2025](/activity_reflections/robot/viqrc_2024_2025/)
+[回首頁]({{ "/" | relative_url }})　　[回上頁：VIQRC 2024-2025]({{ "/robot/viqrc_2024_2025/" | relative_url }})

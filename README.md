@@ -25,6 +25,12 @@ bundle install
 bundle exec jekyll serve
 ```
 
+若遇到 Bundler 在 macOS 上出現「missing extensions」或找不到某些 gem 的錯誤，可嘗試強制重新下載/編譯：
+
+```bash
+bundle install --redownload --force
+```
+
 在瀏覽器開啟 <http://localhost:4000>。
 
 ## 部署

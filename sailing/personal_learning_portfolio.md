@@ -14,4 +14,4 @@ parent: /sailing/
 
 　　最後，我覺得完成這項作品能夠讓我未來更好的規劃一個專案，並且製作簡報、海報、作品，在最後與眾人分享。
 
-[回首頁](/activity_reflections/)　　[回上頁：帆船](/activity_reflections/sailing/)
+[回首頁]({{ "/" | relative_url }})　　[回上頁：帆船]({{ "/sailing/" | relative_url }})

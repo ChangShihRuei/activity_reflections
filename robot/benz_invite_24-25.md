@@ -25,4 +25,4 @@ parent: /robot/viqrc_2024_2025/
 
 ![賓士邀請賽技能挑戰成績]({{ "/assets/picture/vex24-25/賓士邀請/賓士邀請技能.png" | relative_url }})
 
-[回首頁](/activity_reflections/)　　[回上頁：VIQRC 2024-2025](/activity_reflections/robot/viqrc_2024_2025/)
+[回首頁]({{ "/" | relative_url }})　　[回上頁：VIQRC 2024-2025]({{ "/robot/viqrc_2024_2025/" | relative_url }})
