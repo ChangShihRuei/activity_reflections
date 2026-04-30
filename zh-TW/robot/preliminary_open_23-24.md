@@ -1,0 +1,32 @@
+---
+layout: page
+title: "2023-2024 VEX IQ TAIWAN OPEN 公開預賽國小組-北部場"
+permalink: /zh-TW/robot/viqrc_2023_2024/preliminary_open
+parent: /zh-TW/robot/viqrc_2023_2024/
+lang: zh-TW
+---
+
+## 一、比賽資訊
+
+- 日期：20231119
+- 地點：國立海洋科技博物館 教育中心
+- 隊伍總數：43 隊
+
+## 二、名次紀錄與圖片
+
+### 團隊合作挑戰賽
+
+- 名次：6
+
+![公開北部預賽團隊合作成績]({{ "/assets/picture/vex23-24/公開北部/公開北部合作成績.png" | relative_url }})
+
+![公開北部預賽團隊合作排名]({{ "/assets/picture/vex23-24/公開北部/公開北部排名.png" | relative_url }})
+
+### 技能挑戰賽
+
+- 名次：14
+
+![公開北部預賽技能挑戰成績]({{ "/assets/picture/vex23-24/公開北部/公開北部技能.png" | relative_url }})
+
+[回首頁]({{ "/zh-TW/" | relative_url }})　　[回上頁：VIQRC 2023-2024]({{ "/zh-TW/robot/viqrc_2023_2024/" | relative_url }})
+

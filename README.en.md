@@ -9,7 +9,7 @@ This is my personal website. It records my experiences from childhood to the pre
 - **Cycling**: elementary-school long-distance trip, “puzzle” island loop ride
 - **Study progress planning**
 - **Bus**
-- **Programming projects**: expense tracker, library management system, etc.
+- **Programming projects**: expense tracker, book management system, etc.
 
 ## Tech
 

@@ -1,0 +1,35 @@
+---
+layout: page
+title: "Battle in Bangkok VEX IQ MS Robotics Competition Signature Event: Middle School"
+permalink: /zh-TW/robot/viqrc_2024_2025/bangkok
+parent: /zh-TW/robot/viqrc_2024_2025/
+lang: zh-TW
+---
+
+## 一、比賽資訊
+
+- 日期：20241123-24
+- 地點：St Andrews International School Bangkok, High School
+- 隊伍總數：50
+
+## 二、名次紀錄與圖片
+
+### 團隊合作挑戰賽
+- 名次：4
+
+![曼谷團隊合作成績]({{ "/assets/picture/vex24-25/Bangkok/曼谷合作成績.png" | relative_url }})
+
+![曼谷團隊合作排名]({{ "/assets/picture/vex24-25/Bangkok/曼谷排名.png" | relative_url }})
+
+### 技能挑戰賽
+- 名次：13
+
+![曼谷技能挑戰成績]({{ "/assets/picture/vex24-25/Bangkok/曼谷技能.png" | relative_url }})
+
+### 獎項紀錄
+- Create Award
+
+![曼谷獲獎照片]({{ "/assets/picture/vex24-25/Bangkok/曼谷獲獎1.png" | relative_url }})
+
+[回首頁]({{ "/zh-TW/" | relative_url }})　　[回上頁：VIQRC 2024-2025]({{ "/zh-TW/robot/viqrc_2024_2025/" | relative_url }})
+

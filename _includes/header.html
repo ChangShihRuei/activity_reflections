@@ -1,6 +1,14 @@
-<header class="site-header" role="banner">
+{%- assign _path = page.url | default: "/" -%}
+{%- assign _lang_prefix = "/zh-TW" -%}
+{%- assign _is_en = false -%}
+{%- if page.lang == "en" or _path == "/en/" or _path contains "/en/" -%}
+  {%- assign _lang_prefix = "/en" -%}
+  {%- assign _is_en = true -%}
+{%- endif -%}
+
+<header class="site-header" role="banner" data-baseurl="{{ site.baseurl | default: '' }}">
   <div class="wrapper">
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title" rel="author" href="{{ _lang_prefix | append: "/" | relative_url }}">{{ site.title | escape }}</a>
 
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -19,64 +27,91 @@
 
       <div class="trigger">
         <div class="nav-split nav-split--dropdown">
-          <a class="nav-item nav-item--link" href="{{ "/robot/" | relative_url }}">機器人</a>
+          <a class="nav-item nav-item--link" href="{{ _lang_prefix | append: "/robot/" | relative_url }}">{% if _is_en %}Robotics{% else %}機器人{% endif %}</a>
           <details class="nav-item nav-item--dropdown" data-exclusive="true">
-            <summary class="nav-item__summary" aria-label="展開機器人選單">
+            <summary class="nav-item__summary" aria-label="{% if _is_en %}Open robotics menu{% else %}展開機器人選單{% endif %}">
               <span class="nav-item__chevron" aria-hidden="true">▾</span>
             </summary>
             <div class="nav-item__menu" role="menu">
-              <a role="menuitem" href="{{ "/robot/viqrc_2023_2024/" | relative_url }}">VIQRC 2023-2024</a>
-              <a role="menuitem" href="{{ "/robot/viqrc_2024_2025/" | relative_url }}">VIQRC 2024-2025</a>
-              <a role="menuitem" href="{{ "/robot/fira_2025/" | relative_url }}">FIRA RoboWorld Cup 2025</a>
+              <div class="nav-item__group-title">VIQRC 2023-2024</div>
+              <a role="menuitem" class="nav-item__subitem" href="{{ _lang_prefix | append: "/robot/viqrc_2023_2024/" | relative_url }}">{% if _is_en %}Overview{% else %}總覽{% endif %}</a>
+              <a role="menuitem" class="nav-item__subitem" href="{{ _lang_prefix | append: "/robot/viqrc_2023_2024/preliminary_open" | relative_url }}">{% if _is_en %}Preliminary (Open){% else %}初賽（公開）{% endif %}</a>
+              <a role="menuitem" class="nav-item__subitem" href="{{ _lang_prefix | append: "/robot/viqrc_2023_2024/preliminary_school" | relative_url }}">{% if _is_en %}Preliminary (School){% else %}初賽（校內）{% endif %}</a>
+              <a role="menuitem" class="nav-item__subitem" href="{{ _lang_prefix | append: "/robot/viqrc_2023_2024/final" | relative_url }}">{% if _is_en %}Final{% else %}決賽{% endif %}</a>
+
+              <div class="nav-item__divider" role="separator" aria-hidden="true"></div>
+
+              <div class="nav-item__group-title">VIQRC 2024-2025</div>
+              <a role="menuitem" class="nav-item__subitem" href="{{ _lang_prefix | append: "/robot/viqrc_2024_2025/" | relative_url }}">{% if _is_en %}Overview{% else %}總覽{% endif %}</a>
+              <a role="menuitem" class="nav-item__subitem" href="{{ _lang_prefix | append: "/robot/viqrc_2024_2025/chingshin_invite" | relative_url }}">{% if _is_en %}Chingshin Invite{% else %}靜心邀請賽{% endif %}</a>
+              <a role="menuitem" class="nav-item__subitem" href="{{ _lang_prefix | append: "/robot/viqrc_2024_2025/benz_invite" | relative_url }}">{% if _is_en %}Benz Invite{% else %}薇閣邀請賽（Benz）{% endif %}</a>
+              <a role="menuitem" class="nav-item__subitem" href="{{ _lang_prefix | append: "/robot/viqrc_2024_2025/preliminary" | relative_url }}">{% if _is_en %}Preliminary{% else %}初賽{% endif %}</a>
+              <a role="menuitem" class="nav-item__subitem" href="{{ _lang_prefix | append: "/robot/viqrc_2024_2025/taivex" | relative_url }}">TAI-VEX</a>
+              <a role="menuitem" class="nav-item__subitem" href="{{ _lang_prefix | append: "/robot/viqrc_2024_2025/final" | relative_url }}">{% if _is_en %}Final{% else %}決賽{% endif %}</a>
+              <a role="menuitem" class="nav-item__subitem" href="{{ _lang_prefix | append: "/robot/viqrc_2024_2025/bangkok" | relative_url }}">Bangkok</a>
+              <a role="menuitem" class="nav-item__subitem" href="{{ _lang_prefix | append: "/robot/viqrc_2024_2025/world" | relative_url }}">World</a>
+
+              <div class="nav-item__divider" role="separator" aria-hidden="true"></div>
+
+              <a role="menuitem" href="{{ _lang_prefix | append: "/robot/fira_2025/" | relative_url }}">FIRA RoboWorld Cup 2025</a>
             </div>
           </details>
         </div>
 
         <div class="nav-split nav-split--dropdown">
-          <a class="nav-item nav-item--link" href="{{ "/sailing/" | relative_url }}">帆船</a>
+          <a class="nav-item nav-item--link" href="{{ _lang_prefix | append: "/sailing/" | relative_url }}">{% if _is_en %}Sailing{% else %}帆船{% endif %}</a>
           <details class="nav-item nav-item--dropdown" data-exclusive="true">
-            <summary class="nav-item__summary" aria-label="展開帆船選單">
+            <summary class="nav-item__summary" aria-label="{% if _is_en %}Open sailing menu{% else %}展開帆船選單{% endif %}">
               <span class="nav-item__chevron" aria-hidden="true">▾</span>
             </summary>
             <div class="nav-item__menu" role="menu">
-              <a role="menuitem" href="{{ "/sailing/penghu_regatta/" | relative_url }}">澎湖盃</a>
-              <a role="menuitem" href="{{ "/sailing/personal_learning_portfolio/" | relative_url }}">個人學習歷程展</a>
-              <a role="menuitem" href="{{ "/sailing/2026_dapengwan_regatta/" | relative_url }}">2026大鵬灣重型帆船賽</a>
+              <a role="menuitem" href="{{ _lang_prefix | append: "/sailing/penghu_regatta/" | relative_url }}">{% if _is_en %}Penghu Regatta{% else %}澎湖盃{% endif %}</a>
+              <a role="menuitem" href="{{ _lang_prefix | append: "/sailing/personal_learning_portfolio/" | relative_url }}">{% if _is_en %}Personal Learning Portfolio{% else %}個人學習歷程展{% endif %}</a>
+              <a role="menuitem" href="{{ _lang_prefix | append: "/sailing/2026_dapengwan_regatta/" | relative_url }}">{% if _is_en %}2026 Dapeng Bay Regatta{% else %}2026大鵬灣重型帆船賽{% endif %}</a>
             </div>
           </details>
         </div>
 
         <div class="nav-split nav-split--dropdown">
-          <a class="nav-item nav-item--link" href="{{ "/bicycle/" | relative_url }}">腳踏車</a>
+          <a class="nav-item nav-item--link" href="{{ _lang_prefix | append: "/bicycle/" | relative_url }}">{% if _is_en %}Cycling{% else %}腳踏車{% endif %}</a>
           <details class="nav-item nav-item--dropdown" data-exclusive="true">
-            <summary class="nav-item__summary" aria-label="展開腳踏車選單">
+            <summary class="nav-item__summary" aria-label="{% if _is_en %}Open cycling menu{% else %}展開腳踏車選單{% endif %}">
               <span class="nav-item__chevron" aria-hidden="true">▾</span>
             </summary>
             <div class="nav-item__menu" role="menu">
-              <a role="menuitem" href="{{ "/bicycle/grand_tour/" | relative_url }}">國小壯遊</a>
-              <a role="menuitem" href="{{ "/bicycle/puzzle_trip_1/" | relative_url }}">拼圖環島第一片</a>
-              <a role="menuitem" href="{{ "/bicycle/puzzle_trip_2/" | relative_url }}">拼圖環島第二片</a>
-              <a role="menuitem" href="{{ "/bicycle/puzzle_trip_4/" | relative_url }}">拼圖環島第四片</a>
+              <a role="menuitem" href="{{ _lang_prefix | append: "/bicycle/grand_tour/" | relative_url }}">{% if _is_en %}Grand Tour{% else %}國小壯遊{% endif %}</a>
+              <a role="menuitem" href="{{ _lang_prefix | append: "/bicycle/puzzle_trip_1/" | relative_url }}">{% if _is_en %}Puzzle Island – Part 1{% else %}拼圖環島第一片{% endif %}</a>
+              <a role="menuitem" href="{{ _lang_prefix | append: "/bicycle/puzzle_trip_2/" | relative_url }}">{% if _is_en %}Puzzle Island – Part 2{% else %}拼圖環島第二片{% endif %}</a>
+              <a role="menuitem" href="{{ _lang_prefix | append: "/bicycle/puzzle_trip_4/" | relative_url }}">{% if _is_en %}Puzzle Island – Part 4{% else %}拼圖環島第四片{% endif %}</a>
             </div>
           </details>
         </div>
 
-        <a class="nav-item nav-item--link" href="{{ "/learning_schedule/" | relative_url }}">學習進度規劃</a>
-        <a class="nav-item nav-item--link" href="{{ "/bus/" | relative_url }}">公車</a>
+        <a class="nav-item nav-item--link" href="{{ _lang_prefix | append: "/learning_schedule/" | relative_url }}">{% if _is_en %}Study Plan{% else %}學習進度規劃{% endif %}</a>
+        <a class="nav-item nav-item--link" href="{{ _lang_prefix | append: "/bus/" | relative_url }}">{% if _is_en %}Buses{% else %}公車{% endif %}</a>
 
         <div class="nav-split nav-split--dropdown">
-          <a class="nav-item nav-item--link" href="{{ "/program/" | relative_url }}">程式專案</a>
+          <a class="nav-item nav-item--link" href="{{ _lang_prefix | append: "/program/" | relative_url }}">{% if _is_en %}Programming Projects{% else %}程式專案{% endif %}</a>
           <details class="nav-item nav-item--dropdown" data-exclusive="true">
-            <summary class="nav-item__summary" aria-label="展開程式專案選單">
+            <summary class="nav-item__summary" aria-label="{% if _is_en %}Open programming projects menu{% else %}展開程式專案選單{% endif %}">
               <span class="nav-item__chevron" aria-hidden="true">▾</span>
             </summary>
             <div class="nav-item__menu" role="menu">
-              <a role="menuitem" href="{{ "/program/accounting/" | relative_url }}">記帳</a>
-              <a role="menuitem" href="{{ "/program/hpees_shelf/" | relative_url }}">圖書管理系統</a>
+              <a role="menuitem" href="{{ _lang_prefix | append: "/program/accounting/" | relative_url }}">{% if _is_en %}Accounting{% else %}記帳{% endif %}</a>
+              <a role="menuitem" href="{{ _lang_prefix | append: "/program/hpees_shelf/" | relative_url }}">{% if _is_en %}Book Management System{% else %}圖書管理系統{% endif %}</a>
             </div>
           </details>
         </div>
       </div>
     </nav>
+
+    <button
+      id="translate-toggle"
+      class="translate-toggle"
+      type="button"
+      aria-label="{% if _is_en %}Switch language{% else %}切換語言{% endif %}"
+    >
+      <span data-translate-label>English</span>
+    </button>
   </div>
 </header>

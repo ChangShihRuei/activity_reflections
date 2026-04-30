@@ -77,15 +77,106 @@
   }
 }
 
+/* Header: translate toggle button */
+.site-header {
+  position: relative;
+}
+
+.translate-toggle {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  background: rgba(255, 255, 255, 0.96);
+  font-size: 0.85rem;
+  font-weight: 650;
+  color: rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  z-index: 1000;
+}
+
+.translate-toggle:hover,
+.translate-toggle:focus-visible {
+  background: rgba(99, 102, 241, 0.06);
+  outline: none;
+}
+
+.translate-toggle span[data-translate-label] {
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 800px) {
+  .translate-toggle {
+    top: 10px;
+    right: 12px;
+    padding: 3px 9px;
+    font-size: 0.78rem;
+  }
+}
+
 /* Header: per-section dropdown buttons */
 /* IMPORTANT: don't override Minima's mobile show/hide behavior for .trigger */
 @media screen and (min-width: 800px) {
+  /* Desktop header: title + nav + language in one row */
+  .site-header .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    max-width: 1180px; /* slightly wider, still not edge-to-edge */
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .site-header .site-title {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    margin-left: -12px;
+  }
+
+  .site-header .site-nav {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden; /* keep nav scrolling inside without overlapping others */
+  }
+
+  /* Put language toggle in the same row (not absolute) */
+  .translate-toggle {
+    position: static;
+    top: auto;
+    right: auto;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
   /* Desktop: keep header items in one row */
   .site-nav .trigger {
     display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
+    flex-wrap: nowrap;
+    gap: 6px;
     align-items: center;
+    justify-content: center; /* center nav items when space allows */
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    padding-right: 0; /* no overlap now; keep true centering */
+  }
+
+  /* Prevent dropdown pairs from wrapping internally */
+  .site-nav .nav-split {
+    flex: 0 0 auto;
+  }
+
+  .site-nav .nav-item--link,
+  .site-nav details.nav-item--dropdown > summary.nav-item__summary {
+    flex: 0 0 auto;
   }
 }
 
@@ -157,6 +248,25 @@
   border-radius: 10px;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.78);
+}
+
+.site-nav .nav-item__group-title {
+  padding: 6px 8px 4px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.62);
+  letter-spacing: -0.2px;
+}
+
+.site-nav .nav-item__divider {
+  height: 1px;
+  background: rgba(0, 0, 0, 0.08);
+  margin: 8px 6px;
+  border-radius: 999px;
+}
+
+.site-nav .nav-item__subitem {
+  padding-left: 18px;
 }
 
 .site-nav .nav-item__menu a:hover,
