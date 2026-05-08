@@ -46,6 +46,8 @@ lang: zh-TW
   </details>
 </div>
 
+<a class="home-btn" href="{{ "/zh-TW/drum/" | relative_url }}">鼓</a>
+
 <a class="home-btn" href="{{ "/zh-TW/learning_schedule/" | relative_url }}">學習進度規劃</a>
 
 <a class="home-btn" href="{{ "/zh-TW/bus/" | relative_url }}">公車</a>

@@ -46,6 +46,8 @@ lang: en
   </details>
 </div>
 
+<a class="home-btn" href="{{ "/en/drum/" | relative_url }}">Drum</a>
+
 <a class="home-btn" href="{{ "/en/learning_schedule/" | relative_url }}">Study Plan</a>
 
 <a class="home-btn" href="{{ "/en/bus/" | relative_url }}">Buses</a>
