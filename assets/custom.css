@@ -1,5 +1,13 @@
 /* Site custom styles (no SCSS/front-matter). */
 
+/* Footer tagline (third column): readable width + line length */
+.site-footer .site-footer__tagline {
+  margin: 0;
+  max-width: 42em;
+  line-height: 1.55;
+  color: rgba(0, 0, 0, 0.72);
+}
+
 /* Typography tweaks */
 .post-content h1 {
   font-size: 32px;

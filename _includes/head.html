@@ -1,9 +1,10 @@
 <head>
+  {%- include i18n-vars.html -%}
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Language" content="zh-TW">
-  <meta name="language" content="zh-TW">
+  <meta http-equiv="Content-Language" content="{% if _is_en %}en{% else %}zh-TW{% endif %}">
+  <meta name="language" content="{% if _is_en %}en{% else %}zh-TW{% endif %}">
   {%- seo -%}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <meta property="og:title" content="{{ page.title | default: site.title }}">

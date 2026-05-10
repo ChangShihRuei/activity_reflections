@@ -1,8 +1,21 @@
 title: Ray Chang
 email: ray120424@gmail.com
-description: >- 
- 這是我的個人網站，裡面詳細的介紹了我從小到大的經歷、做過的事情，還有現在以及未來的發展。
+
+# Footer + meta description: edit zh-TW and en together below. Other keys reuse these via YAML anchors.
+taglines:
+  zh-TW: &tagline_zh >-
+    這是我的個人網站，記錄我從小到大的經歷、參與過的活動，以及現在與未來的發展。
+  en: &tagline_en >-
+    This is my personal site: my journey from childhood to now—the activities I've taken part in,
+    what I'm doing today, and where I'm headed next.
+
+description: *tagline_zh
 baseurl: "/activity_reflections"
+defaults:
+  - scope:
+      path: "en"
+    values:
+      description: *tagline_en
 remote_theme: jekyll/minima@v2.5.1
 markdown: kramdown
 plugins:

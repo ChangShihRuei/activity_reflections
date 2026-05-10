@@ -1,0 +1,7 @@
+{%- assign _path = page.url | default: "/" -%}
+{%- assign _lang_prefix = "/zh-TW" -%}
+{%- assign _is_en = false -%}
+{%- if page.lang == "en" or _path == "/en/" or _path contains "/en/" -%}
+  {%- assign _lang_prefix = "/en" -%}
+  {%- assign _is_en = true -%}
+{%- endif -%}

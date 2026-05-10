@@ -20,7 +20,7 @@
         {%- include social.html -%}
       </div>
       <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+        <p class="site-footer__tagline">{{ page.description | default: site.description | escape }}</p>
       </div>
     </div>
   </div>

@@ -1,11 +1,3 @@
-{%- assign _path = page.url | default: "/" -%}
-{%- assign _lang_prefix = "/zh-TW" -%}
-{%- assign _is_en = false -%}
-{%- if page.lang == "en" or _path == "/en/" or _path contains "/en/" -%}
-  {%- assign _lang_prefix = "/en" -%}
-  {%- assign _is_en = true -%}
-{%- endif -%}
-
 <header class="site-header" role="banner" data-baseurl="{{ site.baseurl | default: '' }}">
   <div class="wrapper">
     <a class="site-title" rel="author" href="{{ _lang_prefix | append: "/" | relative_url }}">{{ site.title | escape }}</a>
