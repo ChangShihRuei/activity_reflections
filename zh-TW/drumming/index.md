@@ -1,13 +1,11 @@
 ---
 layout: page
-title: "鼓"
-permalink: /zh-TW/drum/
+title: "爵士鼓"
+permalink: /zh-TW/drumming/
 lang: zh-TW
 ---
 
-## 筆記
-
-- 施工中。
+待處理
 
 [回首頁]({{ "/zh-TW/" | relative_url }})
 

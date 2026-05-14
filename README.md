@@ -14,6 +14,7 @@
 - **學習進度規劃**
 - **公車**
 - **程式專案**：記帳、書籍管理系統等
+- **爵士鼓**
 
 ## 技術
 
@@ -39,7 +40,7 @@ bundle install --redownload --force
 
 網站由 GitHub Actions 在推送到 `main` 時自動建置並部署至 GitHub Pages。
 
-⭐ 若此專案對你有幫助，歡迎給個星標。
+⭐ 若此專案對你有幫助，歡迎給個星星。
 
 ---
 
@@ -52,11 +53,12 @@ This is my personal website. It records my experiences from childhood to the pre
 ## Contents
 
 - **Robotics**: competitions and activities such as VIQRC, FIRA, etc.
-- **Sailing**: Penghu Cup, personal learning portfolio exhibition
+- **Sailing**: Penghu Regatta, personal learning portfolio exhibition, 2026 Dapengwan Regatta
 - **Cycling**: elementary-school long-distance trip, “puzzle” island loop ride
 - **Study progress planning**
 - **Bus**
 - **Programming projects**: expense tracker, book management system, etc.
+- **Drumming**
 
 ## Tech
 
