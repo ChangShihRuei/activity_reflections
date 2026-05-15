@@ -1,9 +1,8 @@
 ---
 layout: page
-title: "Study Plan"
+title: "Learning Schedule"
 permalink: /en/learning_schedule/
 lang: en
-description: From an experimental elementary school to junior-high segment exams—how my review workflow evolved across eleven exams, and the setup I found most effective.
 ---
 
 I went to an experimental elementary school, so I never took the kind of segment exams common in junior high, and I wasn’t used to reviewing class material in a structured, exam-focused way. After I started 7th grade, preparing for those exams was a completely new experience—I adjusted my approach as I went. From 7th grade through the second semester of 8th grade, I went through about eleven segment exams, and my study workflow kept evolving.

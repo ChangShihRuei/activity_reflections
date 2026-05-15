@@ -10,7 +10,7 @@ lang: zh-TW
   - [決賽]({{ "/zh-TW/robot/viqrc_2023_2024/final" | relative_url }})
 - **[VIQRC 2024-2025: Rapid Relay]({{ "/zh-TW/robot/viqrc_2024_2025/" | relative_url }})**
   - [TAI-VEX]({{ "/zh-TW/robot/viqrc_2024_2025/taivex" | relative_url }})
-  - [薇閣邀請賽（Benz Invite）]({{ "/zh-TW/robot/viqrc_2024_2025/benz_invite" | relative_url }})
+  - [賓士邀請賽]({{ "/zh-TW/robot/viqrc_2024_2025/benz_invite" | relative_url }})
   - [靜心邀請賽]({{ "/zh-TW/robot/viqrc_2024_2025/chingshin_invite" | relative_url }})
   - [初賽]({{ "/zh-TW/robot/viqrc_2024_2025/preliminary" | relative_url }})
   - [決賽]({{ "/zh-TW/robot/viqrc_2024_2025/final" | relative_url }})

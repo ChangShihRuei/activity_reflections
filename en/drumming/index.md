@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Drum"
-permalink: /en/drum/
+title: "Drumming"
+permalink: /en/drumming/
 lang: en
 ---
 
