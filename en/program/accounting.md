@@ -7,31 +7,47 @@ lang: en
 ---
 <div class="accounting-page" markdown="1">
 
-Demo site: [Accounting System](https://HaKexva.github.io/accounting_demo/)
+Demo site (live): [Accounting System](https://accounting-ruby.up.railway.app/)
 
-*All features are open to use, but all data is for testing only and will not be saved to a real database.
-
-*Because all features are open, there is no login function provided.
+* Phase 2 is complete; the site is open for anyone to use.
 
 # 1. Tools Used
 
+## Phase 1
+
 Because we needed to keep costs low, we decided to use free GitHub Pages to host the website, and use Google Apps Script with Google Sheets to store and manage data. Finally, to protect privacy, we used the Google OAuth 2.0 API to allow users to log in with a Google account.
 
-## Frontend: GitHub Pages
+### Frontend: GitHub Pages
 
 GitHub Pages lets us deploy the website to GitHub’s servers for free and provides a URL for accessing the site.
 
-## Backend: Google Apps Script
+### Backend: Google Apps Script
 
 Google Apps Script lets us run code connected to Google Sheets, and communicate with the web page through HTTP to send and receive data.
 
-## Database: Google Sheets
+### Database: Google Sheets
 
 Google Sheets stores the data, and we can automate data updates through Google Apps Script.
 
-## Login: Google OAuth 2.0 API
+### Login: Google OAuth 2.0 API
 
 Google OAuth 2.0 API allows users to log in with a Google account and verifies whether their account is allowed to use this system.
+
+## Phase 2
+
+We rebuilt the app with Ruby on Rails, deployed it on Railway, and store data in PostgreSQL.
+
+### Language: Ruby
+
+### Frontend: Phlex, RubyUI (Tailwind CSS), Hotwire (Turbo + Stimulus)
+
+### Database: PostgreSQL
+
+### Backend: Ruby on Rails 8.1
+
+### Deployment: Railway
+
+### Login: Google OAuth 2.0 API
 
 # 2. Project Timeline
 
@@ -166,6 +182,64 @@ After changes are confirmed, the results are synchronized to the dropdown option
 ### 2025.12.26–2026.01.05: Complete settings page functionality
 
 ### 2026.01.06–2026.01.16: Other small fixes and bug fixes
+
+## Phase 2 (2026.04.25–2026.06.04)
+
+### 2026.04.25–2026.05.02: Create Rails project and design data models
+
+#### Rails project
+
+Built the app with Rails 8.1, set up CI, and configured Railway deployment.
+
+#### Data models
+
+Added `User`, `CalendarMonth`, and related models as the foundation for budgets and expenses; introduced Phlex, RubyUI, Tailwind CSS, and Hotwire (Turbo + Stimulus).
+
+### 2026.05.03–2026.05.13: UI framework and deployment
+
+#### UI framework
+
+Set up Phlex views and the Tailwind build pipeline.
+
+#### Deployment
+
+Configured `railway.toml` and fixed Railway issues with Thruster, `PORT`, and CSS assets.
+
+### 2026.05.14–2026.05.16: Budget pages
+
+#### Budget pages
+
+Unified revenue and expenditure budgets at `/budgets` with a month carousel, auto-save, and an allocation chart.
+
+### 2026.05.17–2026.05.18: Expense, settings, and Google OAuth login
+
+#### Actual expenditure
+
+The dashboard logs expenses with live budget/remaining summaries and a monthly spending chart; the history page supports browse, edit, and delete.
+
+#### Settings
+
+Manage spending categories, payment methods, and platforms; changes sync to expense form dropdowns.
+
+#### Google OAuth login
+
+Production uses Google sign-in; local development auto-uses a trial account.
+
+#### Data isolation
+
+Each user sees only their own budgets and expenses; renaming a settings item updates matching history rows.
+
+### 2026.05.24–2026.05.27: Month selectors and mobile budget polish
+
+Added month selectors on budget, expense, and history pages; refined mobile budget save behavior and carousel navigation.
+
+### 2026.06.02–2026.06.04: Live expense summaries and polish
+
+Adjusted desktop and mobile summary layouts; amounts update category balances and the month total while typing.
+
+### 2026.06.04: Phase 2 complete and open to use
+
+Deployed on Railway and opened the site for public use.
 
 # 3. Reflection
 

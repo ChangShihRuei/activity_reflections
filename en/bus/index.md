@@ -14,5 +14,7 @@ However, as I grew older and taller, I started getting motion sickness more easi
 
 In the end, I think riding buses has influenced me a lot. It led me to become interested in transportation in Taiwan, and even in other kinds of transport such as the MRT, TRA, and HSR. When traveling around the greater Taipei area, I can quickly suggest the fastest route and guide a group to move efficiently. Also, studying buses helped me learn to read early—I could recognize most commonly used characters by first grade. That’s why I believe buses have had a big impact on me.
 
+Related project: [Taiwan Transportation Website]({{ "/en/program/transportation/" | relative_url }})
+
 [Back to Home]({{ "/en/" | relative_url }})
 

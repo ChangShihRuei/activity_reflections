@@ -6,31 +6,47 @@ parent: /zh-TW/program/
 lang: zh-TW
 ---
 <div class="accounting-page" markdown="1">
-網頁樣本：[記帳系統](https://HaKexva.github.io/accounting_demo/)
+網頁樣本（可實際使用）：[記帳系統](https://accounting-ruby.up.railway.app/)
 
-*所有功能皆開放使用，但資料皆為測試用，不會儲存到實際資料庫。
-
-*由於功能全部開放，故不提供登入功能。
+* 目前已完成第二階段功能，開放大家自由使用網站
 
 # 一、使用工具
 
+## 第一階段
+
 因為我們需要壓低成本，所以決定使用免費的 GitHub Pages 來管理網頁，用 Google Apps Script 與 Google Sheet 來儲存與管理資料。最後，為了保護隱私，所以使用 Google OAuth 2.0 API 來讓用戶使用 Google 帳號登入網頁。
 
-## 前端：GitHub Pages
+### 前端：GitHub Pages
 
 GitHub Pages 可以幫助我們免費的將網站部署到 GitHub 的伺服器上，並提供一個網址供網站存取。
 
-## 後端：Google Apps Script
+### 後端：Google Apps Script
 
 Google Apps Script 可以幫助我們在 Google Sheet 中執行程式碼，並且可以透過 HTTP 通訊協定來與網頁傳送與接收資料。
 
-## 資料庫：Google Sheet
+### 資料庫：Google Sheet
 
 Google Sheet 可以幫助我們儲存資料，並且可以透過 Google Apps Script 來自動化更新資料。
 
-## 登入：Google OAuth 2.0 API
+### 登入：Google OAuth 2.0 API
 
 Google OAuth 2.0 API 可以幫助我們讓用戶使用 Google 帳號登入網頁並驗證帳號是否開放使用此系統。
+
+## 第二階段
+
+改用 Ruby on Rails 重建，部署至 Railway，並以 PostgreSQL 儲存資料。
+
+### 使用語言：Ruby
+
+### 前端：Phlex、RubyUI（Tailwind CSS）、Hotwire（Turbo + Stimulus）
+
+### 資料庫：PostgreSQL
+
+### 後端：Ruby on Rails 8.1
+
+### 部署：Railway
+
+### 登入：Google OAuth 2.0 API
 
 # 二、專案進度
 
@@ -165,6 +181,64 @@ HTTP 通訊協定－POST：傳送支出表頁面 Google Apps Script 資料（Ups
 ### 2025.12.26-2026.01.05：完成設定頁面功能
 
 ### 2026.01.06-2026.01.16：其他細部功能修正、錯誤修正
+
+## 第二階段（2026.04.25-2026.06.04）
+
+### 2026.04.25-2026.05.02：建立 Rails 專案，設計資料模型
+
+#### 建立 Rails 專案
+
+使用 Rails 8.1 建立專案，設定 CI 與 Railway 部署。
+
+#### 資料模型
+
+建立 User、CalendarMonth 等模型，作為預算與支出的基礎；引入 Phlex、RubyUI、Tailwind CSS、Hotwire（Turbo + Stimulus）。
+
+### 2026.05.03-2026.05.13：完成 UI 框架與部署
+
+#### UI 框架
+
+建立 Phlex 視圖與 Tailwind 編譯流程。
+
+#### 部署
+
+設定 railway.toml，修正 Railway 上 Thruster、PORT 與 CSS 資源等部署問題。
+
+### 2026.05.14-2026.05.16：完成預算頁面
+
+#### 預算頁面
+
+將收入與支出預算整合至 /budgets，以輪播卡片切換月份，支援自動儲存與預算配置圖表。
+
+### 2026.05.17-2026.05.18：完成支出、設定頁面與 Google OAuth 登入
+
+#### 實際支出頁面
+
+首頁可登錄支出，顯示即時預算／餘額摘要與本月支出圖表；支出紀錄頁可瀏覽、編輯、刪除。
+
+#### 設定頁面
+
+管理消費類別、支付方式、支付平台，修改後同步至支出表單的下拉選單。
+
+#### Google OAuth 登入
+
+正式環境以 Google 帳號登入；本機開發自動使用試用帳號。
+
+#### 資料隔離
+
+各使用者只能看到自己的預算與支出；設定項目重新命名時，同步更新歷史支出紀錄。
+
+### 2026.05.24-2026.05.27：月份選擇器與預算行動版優化
+
+預算、支出、支出紀錄頁加入月份選擇器；調整行動版預算表單的儲存方式與輪播導覽。
+
+### 2026.06.02-2026.06.04：支出頁面即時摘要與細節修正
+
+調整桌面與行動版摘要區塊版面；輸入金額時即時更新類別餘額與本月總計。
+
+### 2026.06.04：完成第二階段並開放使用
+
+部署至 Railway，開放大家自由使用網站。
 
 
 # 三、反思
