@@ -42,6 +42,7 @@ lang: en
       <a href="{{ "/en/bicycle/puzzle_trip_1/" | relative_url }}">Puzzle Island Trip Part 1</a>
       <a href="{{ "/en/bicycle/puzzle_trip_2/" | relative_url }}">Puzzle Island Trip Part 2</a>
       <a href="{{ "/en/bicycle/puzzle_trip_4/" | relative_url }}">Puzzle Island Trip Part 4</a>
+      <a href="{{ "/en/bicycle/puzzle_trip_5/" | relative_url }}">Puzzle Island Trip Part 5</a>
     </div>
   </details>
 </div>

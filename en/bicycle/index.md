@@ -8,6 +8,7 @@ lang: en
 - **[Puzzle Island – Part 1: Guandu (Taipei) to Yuanlin (Changhua)]({{ "/en/bicycle/puzzle_trip_1/" | relative_url }})**
 - **[Puzzle Island – Part 2: Suao (Yilan) to Guandu (Taipei)]({{ "/en/bicycle/puzzle_trip_2/" | relative_url }})**
 - **[Puzzle Island – Part 4: Tainan City to Yuanlin (Changhua)]({{ "/en/bicycle/puzzle_trip_4/" | relative_url }})**
+- **[Puzzle Island – Part 5: Hualien City to Taitung City]({{ "/en/bicycle/puzzle_trip_5/" | relative_url }})**
 
 [Back to Home]({{ "/en/" | relative_url }})
 
