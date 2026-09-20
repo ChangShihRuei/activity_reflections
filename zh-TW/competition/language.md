@@ -20,14 +20,14 @@ lang: zh-TW
 
 ## 三、準備
 
-- [字音字型1答案.pages]({{ "/assets/picture/competition/language/prep/字音字型1答案.pages" | relative_url }})
-- [字音字型2答案.pages]({{ "/assets/picture/competition/language/prep/字音字型2答案.pages" | relative_url }})
-- [字音字型3答案.pages]({{ "/assets/picture/competition/language/prep/字音字型3答案.pages" | relative_url }})
-- [字音字型4答案.pages]({{ "/assets/picture/competition/language/prep/字音字型4答案.pages" | relative_url }})
-- [字音字型5答案.pages]({{ "/assets/picture/competition/language/prep/字音字型5答案.pages" | relative_url }})
-- [字音字型6答案.pages]({{ "/assets/picture/competition/language/prep/字音字型6答案.pages" | relative_url }})
-- [字音字型7答案.pages]({{ "/assets/picture/competition/language/prep/字音字型7答案.pages" | relative_url }})
-- [字音字型8答案.pages]({{ "/assets/picture/competition/language/prep/字音字型8答案.pages" | relative_url }})
+- [字音字型1答案.pdf]({{ "/assets/picture/competition/language/prep/字音字型1答案.pdf" | relative_url }})
+- [字音字型2答案.pdf]({{ "/assets/picture/competition/language/prep/字音字型2答案.pdf" | relative_url }})
+- [字音字型3答案.pdf]({{ "/assets/picture/competition/language/prep/字音字型3答案.pdf" | relative_url }})
+- [字音字型4答案.pdf]({{ "/assets/picture/competition/language/prep/字音字型4答案.pdf" | relative_url }})
+- [字音字型5答案.pdf]({{ "/assets/picture/competition/language/prep/字音字型5答案.pdf" | relative_url }})
+- [字音字型6答案.pdf]({{ "/assets/picture/competition/language/prep/字音字型6答案.pdf" | relative_url }})
+- [字音字型7答案.pdf]({{ "/assets/picture/competition/language/prep/字音字型7答案.pdf" | relative_url }})
+- [字音字型8答案.pdf]({{ "/assets/picture/competition/language/prep/字音字型8答案.pdf" | relative_url }})
 
 ![字音字型1答案]({{ "/assets/picture/competition/language/prep/字音字型1答案.jpg" | relative_url }})
 
