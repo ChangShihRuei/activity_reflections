@@ -79,6 +79,20 @@
           </details>
         </div>
 
+        <div class="nav-split nav-split--dropdown">
+          <a class="nav-item nav-item--link" href="{{ _lang_prefix | append: "/competition/" | relative_url }}">{% if _is_en %}Academic Contests{% else %}學科競賽{% endif %}</a>
+          <details class="nav-item nav-item--dropdown" data-exclusive="true">
+            <summary class="nav-item__summary" aria-label="{% if _is_en %}Open academic contests menu{% else %}展開學科競賽選單{% endif %}">
+              <span class="nav-item__chevron" aria-hidden="true">▾</span>
+            </summary>
+            <div class="nav-item__menu" role="menu">
+              <a role="menuitem" href="{{ _lang_prefix | append: "/competition/language/" | relative_url }}">{% if _is_en %}Chinese Language Contest{% else %}語文競賽{% endif %}</a>
+              <a role="menuitem" href="{{ _lang_prefix | append: "/competition/geography/" | relative_url }}">{% if _is_en %}National Geographic Knowledge Contest{% else %}地理知識大競賽{% endif %}</a>
+              <a role="menuitem" href="{{ _lang_prefix | append: "/competition/amc8/" | relative_url }}">AMC 8</a>
+            </div>
+          </details>
+        </div>
+
         <a class="nav-item nav-item--link" href="{{ _lang_prefix | append: "/learning_schedule/" | relative_url }}">{% if _is_en %}Study Plan{% else %}學習進度規劃{% endif %}</a>
         <a class="nav-item nav-item--link" href="{{ _lang_prefix | append: "/bus/" | relative_url }}">{% if _is_en %}Buses{% else %}公車{% endif %}</a>
 

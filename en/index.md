@@ -49,6 +49,18 @@ lang: en
 
 <a class="home-btn" href="{{ "/en/drumming/" | relative_url }}">Drumming</a>
 
+<div class="home-split home-split--dropdown">
+  <a class="home-btn" href="{{ "/en/competition/" | relative_url }}">Academic Contests</a>
+  <details data-exclusive="true">
+    <summary class="home-btn home-btn--toggle" aria-label="Open academic contests menu"><span class="home-btn__chevron" aria-hidden="true">▾</span></summary>
+    <div class="home-submenu">
+      <a href="{{ "/en/competition/language/" | relative_url }}">Chinese Language Contest</a>
+      <a href="{{ "/en/competition/geography/" | relative_url }}">National Geographic Knowledge Contest</a>
+      <a href="{{ "/en/competition/amc8/" | relative_url }}">AMC 8</a>
+    </div>
+  </details>
+</div>
+
 <a class="home-btn" href="{{ "/en/learning_schedule/" | relative_url }}">Study Plan</a>
 
 <a class="home-btn" href="{{ "/en/bus/" | relative_url }}">Buses</a>

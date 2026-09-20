@@ -48,6 +48,18 @@ lang: zh-TW
 
 <a class="home-btn" href="{{ "/zh-TW/drumming/" | relative_url }}">爵士鼓</a>
 
+<div class="home-split home-split--dropdown">
+  <a class="home-btn" href="{{ "/zh-TW/competition/" | relative_url }}">學科競賽</a>
+  <details data-exclusive="true">
+    <summary class="home-btn home-btn--toggle" aria-label="展開學科競賽選單"><span class="home-btn__chevron" aria-hidden="true">▾</span></summary>
+    <div class="home-submenu">
+      <a href="{{ "/zh-TW/competition/language/" | relative_url }}">語文競賽</a>
+      <a href="{{ "/zh-TW/competition/geography/" | relative_url }}">地理知識大競賽</a>
+      <a href="{{ "/zh-TW/competition/amc8/" | relative_url }}">AMC 8</a>
+    </div>
+  </details>
+</div>
+
 <a class="home-btn" href="{{ "/zh-TW/learning_schedule/" | relative_url }}">學習進度規劃</a>
 
 <a class="home-btn" href="{{ "/zh-TW/bus/" | relative_url }}">公車</a>

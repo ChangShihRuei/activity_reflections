@@ -11,6 +11,7 @@
 - **機器人**：VIQRC、FIRA 等競賽與活動
 - **帆船**：澎湖盃、個人學習歷程展
 - **腳踏車**：國小壯遊、拼圖環島
+- **學科競賽**：語文競賽、地理知識大競賽、AMC 8
 - **學習進度規劃**
 - **公車**
 - **程式專案**：記帳、書籍管理系統等
@@ -55,6 +56,7 @@ This is my personal website. It records my experiences from childhood to the pre
 - **Robotics**: competitions and activities such as VIQRC, FIRA, etc.
 - **Sailing**: Penghu Regatta, personal learning portfolio exhibition, 2026 Dapengwan Regatta
 - **Cycling**: elementary-school long-distance trip, “puzzle” island loop ride
+- **Academic contests**: Chinese language contest, National Geographic Knowledge Contest, AMC 8
 - **Study progress planning**
 - **Bus**
 - **Programming projects**: expense tracker, book management system, etc.
