@@ -20,11 +20,11 @@ lang: en
 
 - Not yet announced
 
-## 3. Reflection
+## 3. Preparation
 
 
 
-## 4. Photos
+## 4. Reflection
 
 
 

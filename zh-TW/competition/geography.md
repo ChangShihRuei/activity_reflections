@@ -27,8 +27,4 @@ lang: zh-TW
 
 
 
-## 四、競賽照片
-
-
-
 [回首頁]({{ "/zh-TW/" | relative_url }})　　[回上頁：學科競賽]({{ "/zh-TW/competition/" | relative_url }})

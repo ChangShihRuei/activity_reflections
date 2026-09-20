@@ -27,8 +27,4 @@ lang: en
 
 
 
-## 4. Photos
-
-
-
 [Back to Home]({{ "/en/" | relative_url }})　　[Back: Academic Contests]({{ "/en/competition/" | relative_url }})

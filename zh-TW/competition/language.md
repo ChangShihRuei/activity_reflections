@@ -13,17 +13,43 @@ lang: zh-TW
 - 項目：字音字形
 - 主辦單位：臺北市政府教育局
 - 承辦單位：臺北市立第一女子高級中學
-- 準備：字音字型練習／答案卷 1–8
 
 ## 二、名次與獎項紀錄
 
 - 未得名
 
-## 三、心得
+## 三、準備
+
+- [字音字型1答案.pages]({{ "/assets/picture/competition/language/prep/字音字型1答案.pages" | relative_url }})
+- [字音字型2答案.pages]({{ "/assets/picture/competition/language/prep/字音字型2答案.pages" | relative_url }})
+- [字音字型3答案.pages]({{ "/assets/picture/competition/language/prep/字音字型3答案.pages" | relative_url }})
+- [字音字型4答案.pages]({{ "/assets/picture/competition/language/prep/字音字型4答案.pages" | relative_url }})
+- [字音字型5答案.pages]({{ "/assets/picture/competition/language/prep/字音字型5答案.pages" | relative_url }})
+- [字音字型6答案.pages]({{ "/assets/picture/competition/language/prep/字音字型6答案.pages" | relative_url }})
+- [字音字型7答案.pages]({{ "/assets/picture/competition/language/prep/字音字型7答案.pages" | relative_url }})
+- [字音字型8答案.pages]({{ "/assets/picture/competition/language/prep/字音字型8答案.pages" | relative_url }})
+
+![字音字型1答案]({{ "/assets/picture/competition/language/prep/字音字型1答案.jpg" | relative_url }})
+
+![字音字型2答案]({{ "/assets/picture/competition/language/prep/字音字型2答案.jpg" | relative_url }})
+
+![字音字型3答案]({{ "/assets/picture/competition/language/prep/字音字型3答案.jpg" | relative_url }})
+
+![字音字型4答案]({{ "/assets/picture/competition/language/prep/字音字型4答案.jpg" | relative_url }})
+
+![字音字型5答案]({{ "/assets/picture/competition/language/prep/字音字型5答案.jpg" | relative_url }})
+
+![字音字型6答案]({{ "/assets/picture/competition/language/prep/字音字型6答案.jpg" | relative_url }})
+
+![字音字型7答案]({{ "/assets/picture/competition/language/prep/字音字型7答案.jpg" | relative_url }})
+
+![字音字型8答案]({{ "/assets/picture/competition/language/prep/字音字型8答案.jpg" | relative_url }})
+
+## 四、心得
 
 
 
-## 四、競賽照片
+## 五、競賽照片
 
 ![語文競賽活動背板 1]({{ "/assets/picture/competition/language/banner_1.jpg" | relative_url }})
 

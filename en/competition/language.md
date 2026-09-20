@@ -13,17 +13,43 @@ lang: en
 - Category: Character pronunciation and orthography (字音字形)
 - Organizer: Department of Education, Taipei City Government
 - Host: Taipei First Girls High School
-- Preparation: Pronunciation / character-form practice sets 1–8 (with answer keys)
 
 ## 2. Rankings and Awards
 
 - Did not place
 
-## 3. Reflection
+## 3. Preparation
+
+- [字音字型1答案.pages]({{ "/assets/picture/competition/language/prep/字音字型1答案.pages" | relative_url }})
+- [字音字型2答案.pages]({{ "/assets/picture/competition/language/prep/字音字型2答案.pages" | relative_url }})
+- [字音字型3答案.pages]({{ "/assets/picture/competition/language/prep/字音字型3答案.pages" | relative_url }})
+- [字音字型4答案.pages]({{ "/assets/picture/competition/language/prep/字音字型4答案.pages" | relative_url }})
+- [字音字型5答案.pages]({{ "/assets/picture/competition/language/prep/字音字型5答案.pages" | relative_url }})
+- [字音字型6答案.pages]({{ "/assets/picture/competition/language/prep/字音字型6答案.pages" | relative_url }})
+- [字音字型7答案.pages]({{ "/assets/picture/competition/language/prep/字音字型7答案.pages" | relative_url }})
+- [字音字型8答案.pages]({{ "/assets/picture/competition/language/prep/字音字型8答案.pages" | relative_url }})
+
+![字音字型1答案]({{ "/assets/picture/competition/language/prep/字音字型1答案.jpg" | relative_url }})
+
+![字音字型2答案]({{ "/assets/picture/competition/language/prep/字音字型2答案.jpg" | relative_url }})
+
+![字音字型3答案]({{ "/assets/picture/competition/language/prep/字音字型3答案.jpg" | relative_url }})
+
+![字音字型4答案]({{ "/assets/picture/competition/language/prep/字音字型4答案.jpg" | relative_url }})
+
+![字音字型5答案]({{ "/assets/picture/competition/language/prep/字音字型5答案.jpg" | relative_url }})
+
+![字音字型6答案]({{ "/assets/picture/competition/language/prep/字音字型6答案.jpg" | relative_url }})
+
+![字音字型7答案]({{ "/assets/picture/competition/language/prep/字音字型7答案.jpg" | relative_url }})
+
+![字音字型8答案]({{ "/assets/picture/competition/language/prep/字音字型8答案.jpg" | relative_url }})
+
+## 4. Reflection
 
 
 
-## 4. Photos
+## 5. Photos
 
 ![Language contest banner 1]({{ "/assets/picture/competition/language/banner_1.jpg" | relative_url }})
 
