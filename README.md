@@ -22,27 +22,6 @@
 - [Jekyll](https://jekyllrb.com/) + [Minima](https://github.com/jekyll/minima) 主題
 - 透過 GitHub Actions 部署到 GitHub Pages
 
-## 本地開發
-
-```bash
-bundle install
-bundle exec jekyll serve
-```
-
-若遇到 Bundler 在 macOS 上出現「missing extensions」或找不到某些 gem 的錯誤，可嘗試強制重新下載/編譯：
-
-```bash
-bundle install --redownload --force
-```
-
-在瀏覽器開啟 <http://localhost:4000>。
-
-## 部署
-
-網站由 GitHub Actions 在推送到 `main` 時自動建置並部署至 GitHub Pages。
-
-⭐ 若此專案對你有幫助，歡迎給個星星。
-
 ---
 
 <a id="english"></a>
@@ -66,24 +45,3 @@ This is my personal website. It records my experiences from childhood to the pre
 
 - [Jekyll](https://jekyllrb.com/) + [Minima](https://github.com/jekyll/minima) theme
 - Deployed to GitHub Pages via GitHub Actions
-
-## Local development
-
-```bash
-bundle install
-bundle exec jekyll serve
-```
-
-If Bundler fails on macOS with “missing extensions” or missing gem errors, try forcing a redownload/rebuild:
-
-```bash
-bundle install --redownload --force
-```
-
-Open `http://localhost:4000` in your browser.
-
-## Deployment
-
-The site is automatically built and deployed to GitHub Pages by GitHub Actions when changes are pushed to `main`.
-
-⭐ If this project helps you, feel free to give it a star.
