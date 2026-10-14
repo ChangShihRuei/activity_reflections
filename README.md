@@ -1,3 +1,5 @@
+![](docs/screenshot.webp)
+
 # Ray Chang — 個人網站 · Personal Website
 
 [中文](#中文) · [English](#english)
